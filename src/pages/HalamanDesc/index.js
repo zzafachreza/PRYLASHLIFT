@@ -45,8 +45,6 @@ export default function HalamanDesc({ navigation }) {
                 <Text style={styles.desc}>Ini adalah lash yang akan memberikan kesan tebal, bervolume, dan fluffy pada bulu matamu. </Text>
                 <Text style={styles.judul}>NAIL ART - Basic Manicure</Text>
                 <Text style={styles.desc}>Basic manicure adalah manicure standar yang Kuku kamu akan dipotong, dibentuk, dan digosok. Kutikula kamu juga akan dibersihkan dan minyak akan dioleskan di sekitar kuku. Biasanya, kamu juga akan menikmati pijat tangan yang sangat menenangkan.</Text>
-                <Text style={styles.judul}>NAIL ART - Basic Manicure</Text>
-                <Text style={styles.desc}>Basic manicure adalah manicure standar yang Kuku kamu akan dipotong, dibentuk, dan digosok. Kutikula kamu juga akan dibersihkan dan minyak akan dioleskan di sekitar kuku. Biasanya, kamu juga akan menikmati pijat tangan yang sangat menenangkan.</Text>
                 <Text style={styles.judul}>NAIL ART - Pedicure </Text>
                 <Text style={styles.desc}>Pedicure adalah perawatan yang dilakukan pada kuku dan kulit bagian kaki. Selain merawat kuku agar bersih mengilap, meni pedi juga memungkinkan kamu untuk memiliki tambahan kuku buatan, kutek, dan hiasan kuku sesuai keinginan.</Text>
                 <Text style={styles.judul}>NAIL ART - Gel Polish </Text>

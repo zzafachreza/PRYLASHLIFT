@@ -7,6 +7,8 @@ import Carousel from 'react-native-snap-carousel';
 import TextTicker from 'react-native-text-ticker'
 import colors from '../../utils/colors';
 import { SliderBox } from 'react-native-image-slider-box';
+import { Alert } from 'react-native';
+import { BackHandler } from 'react-native';
 
 
 
@@ -181,7 +183,20 @@ function HalamanHome({ navigation }) {
                 }}>
                     <Image style={{ width: 30, height: 39, }} source={require('../../assets/img/logorumahhome.png')} />
                 </TouchableOpacity>
-                <TouchableOpacity style={{
+                <TouchableOpacity onPress={() => {
+                    Alert.alert('PRYLASHLIFT', 'Apakah Kamu yakin akan keluar aplikasi ?', [
+                        {
+                            text: 'TIDAK'
+                        },
+                        {
+                            text: 'KELUAR',
+                            onPress: () => {
+                                BackHandler.exitApp();
+                            }
+                        }
+
+                    ])
+                }} style={{
                     justifyContent: 'center',
                     alignItems: 'center',
                     flex: 1,
